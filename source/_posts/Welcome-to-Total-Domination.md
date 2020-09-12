@@ -1,9 +1,7 @@
----
-title: Welcome to Total Domination.
-date: 2020-09-12 04:07:15
+title: The Awards I Gave This Year For Any Amount Of Time
 tags: games
+date: 2020-09-12 04:07:15
 ---
-
 **BEST NOVELLA AWARD**: *SOMA*
 **BEST NOVEL AWARD**: *The Witcher 3*
 **ORIGINAL VISION AWARD**: *Disco Elysium*
@@ -12,4 +10,3 @@ tags: games
 **MOST NOTHING AWARD**: *Animal Crossing: New Horizons*
 **SENSE OF AWE AWARD**: *Minecraft*
 **MOMENT IN TIME AWARD**: *Red Dead Redemption 2*
-
