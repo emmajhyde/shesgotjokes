@@ -119,7 +119,7 @@ menu:
   home: / || fa fa-home
   #about: /about/ || fa fa-user
   #tags: /tags/ || fa fa-tags
-  #categories: /categories/ || fa fa-th
+  categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
@@ -349,14 +349,13 @@ mobile_layout_economy: false
 android_chrome_color: "#222"
 
 # Custom Logo (Do not support scheme Mist)
-custom_logo: #/uploads/custom-logo.jpg
-
+custom_logo: https://i.imgur.com/pe8Qmtl.jpg
 codeblock:
-  # Code Highlight theme
-  # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
-  # See: https://github.com/chriskempson/tomorrow-theme
-  highlight_theme: solarized
-  # Add copy button on codeblock
+# Code Highlight theme
+# All available themes: https://theme-next.js.org/highlight/
+  prism:
+    light: prism-solarizedlight
+    dark: prism-solarizedlight
   copy_button:
     enable: false
     # Show text copy result.
@@ -390,9 +389,9 @@ bookmark:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
-  permalink: https://github.com/yourname
-  title: Follow me on GitHub
+  enable: true
+  permalink: https://github.com/emmahyde
+  title: Let us fade into the ether as one.
 
 
 # ---------------------------------------------------------------
