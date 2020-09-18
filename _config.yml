@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: In terms of money, I'm fully broke,
-subtitle: but no one would argue that
+title: She's Got Jokes
+subtitle:
 description: (A joke is funny, and that's what really stands out)
 keywords:
 author: Emma Hyde
@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
