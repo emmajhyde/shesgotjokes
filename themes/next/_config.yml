@@ -354,10 +354,10 @@ codeblock:
 # Code Highlight theme
 # All available themes: https://theme-next.js.org/highlight/
   prism:
-    light: prism-solarizedlight
-    dark: prism-solarizedlight
+    light: prism-xonokai
+    dark: prism-xonokai
   copy_button:
-    enable: true
+    enable: false
     # Show text copy result.
     show_result: false
     # Available values: default | flat | mac
@@ -739,7 +739,7 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: true
+  enable: false
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
