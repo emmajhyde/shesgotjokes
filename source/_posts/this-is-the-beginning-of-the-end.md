@@ -1,10 +1,10 @@
 ---
 title: this is the beginning of the end
 date: 2020-09-18 15:57:11
-tags:
+categories: blog
 ---
 I am supposed to find new ways to enjoy myself, as all of my previous ways have become a lot less enjoyable due to the following equation:
-```rb
+```ruby
 sitting_at_desk_all_day = true
 never_going_into_office = true
 hobbies.type = sitting_at_desk
