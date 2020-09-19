@@ -14,7 +14,7 @@ cache:
   enable: true
 
 # Remove unnecessary files after hexo generate.
-minify: false
+minify: true
 
 # Define custom file paths.
 # Create your custom files in site directory `source/_data` and uncomment needed files below.
@@ -208,13 +208,13 @@ footer:
     # If you want to animate the icon, set it to true.
     animated: false
     # Change the color of icon, using Hex Code.
-    color: "#ff0000"
+    color: "#ffffff"
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
   copyright:
 
   # Powered by Hexo & NexT
-  powered: true
+  powered: false
 
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
@@ -356,8 +356,8 @@ codeblock:
     light: default
     dark: tomorrow-night
   prism:
-    light: prism-tomorrow
-    dark: prism-tomorrow
+    light: prism-xonokai
+    dark: prism-xonokai
   # Add copy button on codeblock
   copy_button:
     enable: false
@@ -408,10 +408,10 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
-  host:
+  host: https://fonts.googleapis.com
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -422,29 +422,28 @@ font:
   global:
     external: true
     family: Lato
-    size:
 
   # Font settings for site title (.site-title).
   title:
     external: true
-    family:
-    size:
+    family: Roboto
 
   # Font settings for headlines (<h1> to <h6>).
   headings:
     external: true
-    family:
-    size:
+    family: Roboto
 
   # Font settings for posts (.post-body).
   posts:
     external: true
-    family:
+    family: Lato
+    size: 0.7
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
+    family: Inconsolata
+    size: 0.8
 
 
 # ---------------------------------------------------------------
