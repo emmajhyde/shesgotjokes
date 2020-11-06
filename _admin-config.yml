@@ -1,0 +1,5 @@
+options:
+  askImageFilename: true
+  overwriteImages: false
+  imagePath: /public/images
+  imagePrefix: ''

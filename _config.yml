@@ -101,3 +101,9 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# hexo-admin authentification
+admin:
+  username: emmajhyde
+  password_hash: $2a$10$RcR3xXxoCpOMs8tdUnRBnOGSfvis5y5TD8xFPCIsUoKhHZCggNYMy
+  secret: gurl, go
